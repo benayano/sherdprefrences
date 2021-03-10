@@ -1,9 +1,8 @@
 package com.example.sherdprefrences.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.core.content.edit
+import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import com.example.sherdprefrences.R
 import com.example.sherdprefrences.model.OnBoardingRepository

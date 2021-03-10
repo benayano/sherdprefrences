@@ -11,11 +11,9 @@ import com.example.sherdprefrences.viewModel.MainViewModel
 import com.example.sherdprefrences.viewModel.OnBoardingRepositoryFactory
 
 class MainActivity : AppCompatActivity() {
-
     private val viewModel by viewModels<MainViewModel> { OnBoardingRepositoryFactory(
             OnBoardingRepository((PreferenceManager.getDefaultSharedPreferences(this)))
     )}
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
